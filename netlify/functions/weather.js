@@ -18,7 +18,7 @@ const OKTA_AUTH_SERVER_ID =
 const OKTA_CLIENT_ID = process.env.OKTA_CLIENT_ID || "wlpzw4g5yrM6c6GX41d7";
 const OKTA_CLIENT_SECRET = process.env.OKTA_CLIENT_SECRET; // Set this in Netlify env vars
 const WEATHER_API_KEY =
-  process.env.WEATHER_API_KEY || "79bfe8c8457f902007e552c4938f930a";
+  process.env.WEATHER_API_KEY || "6baa00b3af0c1f5879b30e340f84dc20";
 
 /**
  * Main handler for the Netlify function

@@ -1,0 +1,22 @@
+{
+  "name": "xaa-weather-api",
+  "version": "1.0.0",
+  "description": "Netlify serverless function for XAA-protected weather API",
+  "main": "netlify/functions/weather.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [
+    "netlify",
+    "serverless",
+    "okta",
+    "xaa",
+    "weather"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}

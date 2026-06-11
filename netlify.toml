@@ -1,0 +1,15 @@
+[build]
+  # No build command needed for simple functions
+  publish = "public"
+  functions = "netlify/functions"
+
+[functions]
+  # Set Node.js version for functions
+  node_bundler = "esbuild"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization"

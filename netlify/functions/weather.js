@@ -12,10 +12,10 @@ const https = require("https");
 
 // Configuration - Set these as Netlify environment variables
 const OKTA_DOMAIN =
-  process.env.OKTA_DOMAIN || "bala-secures-ai.oktapreview.com";
+  process.env.OKTA_DOMAIN || "oktaforai.oktapreview.com";
 const OKTA_AUTH_SERVER_ID =
-  process.env.OKTA_AUTH_SERVER_ID || "ausxz4fe1zFC3wYBU1d7";
-const OKTA_CLIENT_ID = process.env.OKTA_CLIENT_ID || "wlpyvb6ikeAjKuy4L1d7";
+  process.env.OKTA_AUTH_SERVER_ID || "auszw4o1bvAV8hPCX1d7";
+const OKTA_CLIENT_ID = process.env.OKTA_CLIENT_ID || "wlpzw4g5yrM6c6GX41d7";
 const OKTA_CLIENT_SECRET = process.env.OKTA_CLIENT_SECRET; // Set this in Netlify env vars
 const WEATHER_API_KEY =
   process.env.WEATHER_API_KEY || "79bfe8c8457f902007e552c4938f930a";
